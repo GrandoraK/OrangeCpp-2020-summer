@@ -1,0 +1,10 @@
+﻿  EmployeeManager1.cpp
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(63,54): error C2664: 'PermanentWorker::PermanentWorker(PermanentWorker &&)': 인수 1을(를) 'const char [4]'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(63,42): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(13,2): message : 'PermanentWorker::PermanentWorker' 선언을 참조하십시오.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(64,54): error C2664: 'PermanentWorker::PermanentWorker(PermanentWorker &&)': 인수 1을(를) 'const char [4]'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(64,42): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(13,2): message : 'PermanentWorker::PermanentWorker' 선언을 참조하십시오.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(65,54): error C2664: 'PermanentWorker::PermanentWorker(PermanentWorker &&)': 인수 1을(를) 'const char [4]'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(65,42): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\EmployeeManager1\EmployeeManager1.cpp(13,2): message : 'PermanentWorker::PermanentWorker' 선언을 참조하십시오.
