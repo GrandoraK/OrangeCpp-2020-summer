@@ -2,6 +2,7 @@
 //정규직(Permanent)만을 관리하는 형태의 시스템
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 class PermanentWorker	//정규직 직원 클래스	//Data적 성격이 강함
@@ -10,8 +11,7 @@ private:
 	char name[100];
 	int salary;	//매달 지불해야 하는 급여액
 public:
-	PermanentWorker(char* name, int money)				// !! 여기서 에러가 난다
-		: salary(money)		//초기화리스트(:) 이용
+	PermanentWorker(const char* name, int money) : salary(money) // !! 여기서 에러가 난다 : char* name 앞에 const 를 붙여 해결
 	{
 		strcpy(this->name, name);
 	}
