@@ -1,2 +1,5 @@
 ﻿  DerivCreOrder.cpp
-  DerivCreOrder.vcxproj -> C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\Debug\DerivCreOrder.exe
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\DerivCreOrder\DerivCreOrder.cpp(32,2): error C2512: 'SoBase': 사용할 수 있는 적절한 기본 생성자가 없습니다.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\DerivCreOrder\DerivCreOrder.cpp(6,7): message : 'SoBase' 선언을 참조하십시오.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\DerivCreOrder\DerivCreOrder.cpp(36,2): error C2512: 'SoBase': 사용할 수 있는 적절한 기본 생성자가 없습니다.
+C:\Users\loves\Documents\GitHub\OrangeCpp-2020-summer\Chap7\DerivCreOrder\DerivCreOrder.cpp(6,7): message : 'SoBase' 선언을 참조하십시오.
