@@ -11,7 +11,7 @@ private:
 	char name[100];
 	int salary;	//매달 지불해야 하는 급여액
 public:
-	PermanentWorker(const char* name, int money) : salary(money) // !! 여기서 에러가 난다 : char* name 앞에 const 를 붙여 해결
+	PermanentWorker(char* name, int money) : salary(money) // !! 여기서 에러가 난다 : char* name 앞에 const 를 붙여 해결
 	{
 		strcpy(this->name, name);
 	}
